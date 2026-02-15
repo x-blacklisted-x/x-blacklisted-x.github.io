@@ -1,125 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Neon RGB Strip Lights</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(45deg, red, blue, purple);
-            color: white;
-            text-align: center;
-        }
+<title>Neo RGB Lights</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        header {
-            padding: 50px;
-        }
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0f0f0f;
+color:white;
+text-align:center;
+}
 
-        h1 {
-            font-size: 40px;
-        }
+header{
+padding:40px 20px;
+background:linear-gradient(45deg, red, blue, green);
+animation:rgb 5s infinite alternate;
+}
 
-        .product {
-            background: black;
-            padding: 30px;
-            margin: 30px auto;
-            width: 80%;
-            border-radius: 10px;
-        }
+@keyframes rgb{
+0%{background:linear-gradient(45deg, red, blue);}
+50%{background:linear-gradient(45deg, green, purple);}
+100%{background:linear-gradient(45deg, blue, orange);}
+}
 
-        .price {
-            font-size: 28px;
-            color: yellow;
-        }
+.product{
+padding:40px 20px;
+}
 
-        button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background: lime;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
+.product img{
+width:300px;
+border-radius:15px;
+box-shadow:0 0 20px #00ffcc;
+}
 
-        form {
-            margin-top: 20px;
-        }
+.price{
+font-size:32px;
+color:#00ffcc;
+}
 
-        input, textarea {
-            padding: 10px;
-            width: 80%;
-            margin: 10px;
-            border-radius: 5px;
-            border: none;
-        }
+.old-price{
+text-decoration:line-through;
+color:#888;
+font-size:18px;
+}
 
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: black;
-        }
-    </style>
+.features{
+list-style:none;
+padding:0;
+line-height:30px;
+font-size:18px;
+}
+
+.btn{
+background:#25D366;
+color:white;
+padding:15px 40px;
+font-size:18px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+margin-top:20px;
+}
+
+.reviews{
+background:#1a1a1a;
+padding:30px;
+}
+
+.review-box{
+background:#222;
+margin:15px auto;
+padding:15px;
+width:80%;
+border-radius:10px;
+}
+
+.floating{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-size:16px;
+text-decoration:none;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>🔥 Neon RGB Strip Lights 🔥</h1>
-    <p>Waterproof | Remote Control | 16 Million Colors</p>
+<h1>Neo RGB Strip Lights</h1>
+<p>Light Up Your Room Like Never Before</p>
 </header>
 
-<div class="product">
-    <h2>5 Meter RGB Strip Light</h2>
-    <p class="price">₹799 Only</p>
-    <p>Perfect for Room Decoration, Gaming Setup & Shops</p>
-    
-    <h3>Order Now</h3>
-    <a href="https://wa.me/918804566858?text=Hello%20I%20want%20to%20order%205m%20RGB%20Strip%20Light%20%E2%82%B9799"
-   target="_blank">
-   <button style="background: green; color: white; padding: 15px 30px; border: none; font-size:18px; border-radius:5px; cursor:pointer;">
-   Order on WhatsApp
-   </button>
+<section class="product">
+<img src="https://m.media-amazon.com/images/I/61mE6eHcX9L._SL1500_.jpg">
+<h2 class="price">₹799 <span class="old-price">₹1499</span></h2>
+
+<p>🔥 500+ Sold This Month</p>
+
+<ul class="features">
+<li>✔ 5 Meter Length</li>
+<li>✔ Remote Control</li>
+<li>✔ Music Sync Mode</li>
+<li>✔ Easy Installation</li>
+</ul>
+
+<a href="https://wa.me/918804566858?text=Hello%20I%20want%20to%20order%205m%20RGB%20Strip%20Light%20%E2%82%B9799" target="_blank">
+<button class="btn">Order Now on WhatsApp</button>
 </a>
-
-    <form action="https://formsubmit.co/your-zeeshanansariofficial858@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br>
-        <input type="text" name="phone" placeholder="Mobile Number" required><br>
-        <textarea name="address" placeholder="Delivery Address" required></textarea><br>
-        <button type="submit">Place Order</button>
-    </form>
-</div>
-
-<footer>
-    <p>© 2026 Neon RGB Lights | All Rights Reserved</p>
-</footer>
-
-</body><section style="font-family: Arial, sans-serif; padding:40px; background:#111; color:white; text-align:center;">
-
-  <h1 style="font-size:40px;">5M RGB Strip Lights</h1>
-  <p style="color:#ccc; font-size:18px;">Decorate your room with 16 Million Colors</p>
-
-  <img src="https://m.media-amazon.com/images/I/61mE6eHcX9L._SL1500_.jpg" 
-       alt="RGB Strip Light" 
-       style="width:300px; margin:20px 0; border-radius:10px;">
-
-  <h2 style="color:#00ffcc; font-size:32px;">₹799 <span style="text-decoration:line-through; color:#888; font-size:20px;">₹1499</span></h2>
-
-  <ul style="list-style:none; padding:0; font-size:18px; line-height:30px;">
-    <li>✔ 5 Meter Length</li>
-    <li>✔ Remote Control</li>
-    <li>✔ Music Sync Mode</li>
-    <li>✔ Easy Installation</li>
-  </ul>
-
-  <a href="https://wa.me/918804566858?text=Hello%20I%20want%20to%20order%205m%20RGB%20Strip%20Light%20%E2%82%B9799" target="_blank">
-    <button style="margin-top:20px; background:#25D366; color:white; padding:15px 40px; font-size:18px; border:none; border-radius:30px; cursor:pointer;">
-      Order on WhatsApp
-    </button>
-  </a>
 
 </section>
 
+<section class="reviews">
+<h2>Customer Reviews</h2>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐ <br>
+"Amazing lights! My room looks insane now." <br> – Rahul
+</div>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐ <br>
+"Music sync mode is crazy good." <br> – Aman
+</div>
+
+<div class="review-box">
+⭐⭐⭐⭐ <br>
+"Value for money product." <br> – Priya
+</div>
+
+</section>
+
+<a class="floating" href="https://wa.me/918804566858?text=Hello%20I%20want%20to%20order%205m%20RGB%20Strip%20Light%20%E2%82%B9799" target="_blank">
+💬 Chat Now
+</a>
+
+</body>
 </html>
-
-
-
